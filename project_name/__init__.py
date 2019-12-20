@@ -1,10 +1,10 @@
 """Template python project"""
 
-def factorial(int: n) -> int:
+def factorial(n: int) -> int: # pylint: disable=invalid-name
     """Calculates factorial
 
     Example:
-        >>> factorial(20)
+        >>> factorial(10)
         3628800
     """
-    return [1,0][n>1] or fact(n-1)*n
+    return [1, 0][n > 1] or factorial(n-1) * n
