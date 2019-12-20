@@ -1,4 +1,4 @@
-proj_dir = <project_name>
+proj_dir = project_name
 
 all:
 	@echo 'test | clean | build | doc'

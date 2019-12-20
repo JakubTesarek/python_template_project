@@ -5,3 +5,5 @@ mypy
 pylint
 sphinx
 sphinxcontrib-spelling
+setuptools
+wheel
