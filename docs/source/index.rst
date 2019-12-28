@@ -1,5 +1,5 @@
 Welcome to <project_name> documentation!
-=====================================
+========================================
 
 .. toctree::
    :maxdepth: 2
